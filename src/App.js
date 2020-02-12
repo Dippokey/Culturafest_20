@@ -19,6 +19,8 @@ import img12 from "./Assets/Theatre.jpg"
 import black from "./Assets/black.jpg"
 import img13 from "./Assets/informal.jpg"
 import img14 from "./Assets/Civil.jpg"
+
+
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const slideData = [
   {

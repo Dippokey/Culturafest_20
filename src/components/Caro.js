@@ -43,7 +43,7 @@ const Caro = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+      </div>
   );
 }
 

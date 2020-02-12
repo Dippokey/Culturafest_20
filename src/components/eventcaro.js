@@ -52,7 +52,7 @@ class Slide extends React.Component {
 
     return hrefObj.map((it) => {
 
-      return <a href={it["refer"]}><button className="eve_bt " >{it["headl"]}</button></a>
+      return <a target="_blank" href={it["refer"]}><button className="eve_bt " >{it["headl"]}</button></a>
     }
     )
   }
@@ -69,7 +69,7 @@ class Slide extends React.Component {
     else if (current + 1 === index) classNames += ' slide--next'
 
     return (
-
+      
       <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
         <div className="row">
           <div className="col-12">
@@ -126,7 +126,7 @@ class Slide extends React.Component {
           </div>
         </div>
       </ReactCardFlip>
-
+  
 
     )
   }
