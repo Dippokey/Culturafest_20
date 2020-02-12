@@ -9,14 +9,14 @@ function Contact() {
       <footer className="footer bg-dark text-white">
         <div className="container" id="foot">
           <div className="footer-row">
-            <div className="col-4 offset-1 col-sm-2">
+            {/* <div className="col-4 offset-1 col-sm-2">
               <h5>Links</h5>
               <ul className="list-unstyled">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
-            </div>
+            </div> */}
             <div className="col-7 col-sm-5">
               <h5>Our Address</h5>
               <address>

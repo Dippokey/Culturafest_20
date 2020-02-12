@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../Cultura20Logo2.png';
-import artist from '../images/artist-coming-soon2.webp';
+import artist from '../images/rave-radio-poster.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 
@@ -60,15 +60,15 @@ class Home extends Component {
           <div className = "artist-card">
              {/* <Button id = "get-passes-btn" className="button-loc disabled" varient="Success">Get Your Passes Now</Button> */}
              
-             <img className="artist-pic" src={artist} alt="artist" width="500" height="500" />
-             <Button id = "gt-pass-bt" href="#">GET PASSES</Button>
+             <img className="artist-pic" src={artist} alt="artist"/>
+             <Button id = "gt-pass-bt" href="https://www.instamojo.com/CULTURA/cultura-dj-night-by-rave-radio-5e71e/">GET PASSES</Button>
           </div>
 
           <div className = "content1">
             <div className = "boxed1">
               <h1>Cultura 2020</h1>
               CMR Institute of Technology is in its 12<sup>th</sup> edition of their annual Techno-Cultural Fest Cultura'20. A most sought after fest in Bangalore, Cultura has grown to greater heights over the years. With a power-packed lineup of 45+ exciting events in store, along with a famous artist on the 2<sup>nd</sup> day of the fest, Cultura'20 has its own fan base among the college youth of Bangalore. This year, we have added yet another set of scintillating events that are trending among the college students, and are providing them with a huge platform to showcase their talent to the audience. Events like DJ Wars, Stand-up Comedy are the new additions to encourage everyone to give their best. With enthralling ideas, new initiatives and a more interactive Cultura'20, we strive to make you witness the best!
-                      <br /><br /><h2>6th and 7th March. </h2>
+                      <br /><br /><h2>6th and 7th March, 2020 </h2>
               {/* <h3>Cultura live in:</h3>
               <ul class = "timer">
                 <li class = "timer1"><span id="days"></span>days</li>
@@ -78,13 +78,7 @@ class Home extends Component {
               </ul> */}
 
             </div> 
-            <div className= "countdown">
-                 <div id="timer">
-                     <div id="days"></div>
-                     <div id="hours"></div>
-                     <div id="seconds"></div>
-            </div>
-            </div>
+            
           </div>
         </div>
 

@@ -41,15 +41,17 @@ a {
   /* margin-top: 5% ; */
   margin-right: 5%;
   margin-left: 5%;
-  width: 50%;
+  
   text-align: center;
   display: inline-block;
 }
 
 /* artist picture */
 .artist-pic{
-  box-shadow: 0 4px 8px 0 azure;
+  box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2);
   transition: 0.3s;
+  width: 600px;
+  height: 800px;
 }
 .artist-pic:hover{
   box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2); 
@@ -67,7 +69,8 @@ a {
   transition: 0.3s;
   text-align: justify;
   display: inline-block;
-  width: 68%;
+  width: auto;
+  margin-right: 10%;
 }
 .boxed1:hover{
   box-shadow: 0 4px 8px 0 azure;
@@ -86,13 +89,16 @@ ul{
 #gt-pass-bt{
   padding-left: 41%;
   padding-right: 41%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
   box-shadow: 0 4px 8px 0 azure;
   box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2);
   transition: 0.3s;
   font-family: 'Courier New', Courier, monospace;
   border-radius: 0px;
+  opacity: 0.9;
+  background-color: #1883bd;
+  font-size: 120%;
 
 }
 #gt-pass-bt:hover{
@@ -106,6 +112,17 @@ ul{
 #about{
   margin-top: 15%;
   width: 70%;
+  margin-left: 100px;
+  
+}
+
+/* the sliding events */
+.slide__action.btnn{
+  background-color: #e74c3c;
+}
+
+article.row{
+  padding-bottom: 20px;
 }
 
 /* buttons for the events */
@@ -122,7 +139,6 @@ ul{
   
   font-size: smaller !important;
 }
-
 
 
 /* media queries start here */
@@ -155,6 +171,8 @@ ul{
     width:50%;
   }
 }
+
+
 
 html, body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
