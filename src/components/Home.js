@@ -68,15 +68,23 @@ class Home extends Component {
             <div className = "boxed1">
               <h1>Cultura 2020</h1>
               CMR Institute of Technology is in its 12<sup>th</sup> edition of their annual Techno-Cultural Fest Cultura'20. A most sought after fest in Bangalore, Cultura has grown to greater heights over the years. With a power-packed lineup of 45+ exciting events in store, along with a famous artist on the 2<sup>nd</sup> day of the fest, Cultura'20 has its own fan base among the college youth of Bangalore. This year, we have added yet another set of scintillating events that are trending among the college students, and are providing them with a huge platform to showcase their talent to the audience. Events like DJ Wars, Stand-up Comedy are the new additions to encourage everyone to give their best. With enthralling ideas, new initiatives and a more interactive Cultura'20, we strive to make you witness the best!
-                      <br /><br />
-              <h3>Cultura live in:</h3>
+                      <br /><br /><h2>6th and 7th March. </h2>
+              {/* <h3>Cultura live in:</h3>
               <ul class = "timer">
                 <li class = "timer1"><span id="days"></span>days</li>
                 <li class = "timer1"><span id="hours"></span>Hours</li>
                 <li class = "timer1"><span id="minutes"></span>Minutes</li>
                 <li class = "timer1"><span id="seconds"></span>Seconds</li>
-              </ul>
+              </ul> */}
+
             </div> 
+            <div className= "countdown">
+                 <div id="timer">
+                     <div id="days"></div>
+                     <div id="hours"></div>
+                     <div id="seconds"></div>
+            </div>
+            </div>
           </div>
         </div>
 

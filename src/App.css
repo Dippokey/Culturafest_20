@@ -2,9 +2,6 @@
   height:60vh;
   background-color: #000;
 }
-/* #gallery{
-  height:100vh;
-} */
 
 .fields{
   color: #fff;
@@ -15,6 +12,8 @@
   height: auto;
   width: 50%;
 }
+
+
 
 .logo_size{
   width: 20%;
@@ -31,25 +30,20 @@
 a {
     text-decoration: none !important;
 }
-
+/* the first container */
 .container1{
   margin-top: 5%;
   display: inline-flex;
 }
-.content1{
-  /* text-align: center; */
-  /* display: inline-block;  */
-  /* padding-right: 2%; */
-}
 
+/* the artist card */
 .artist-card{
-  margin-top: 10% ;
+  /* margin-top: 5% ; */
   margin-right: 5%;
   margin-left: 5%;
   width: 50%;
-  
-  
   text-align: center;
+  display: inline-block;
 }
 
 /* artist picture */
@@ -61,41 +55,25 @@ a {
   box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2); 
 }
 
-
+/* cultura info card */
 .boxed1{
   color: rgb(255, 255, 255);
   font-size: large; 
   font-family: Georgia, 'Times New Roman', Times, serif;
-  /* margin-top: 10%; */
   background-color: #095f8c;
   padding: 5%;
-  /* width: 80%; */
   opacity: 0.9;
-  /* box-shadow: 0 2px 2px 0 rgba(216, 213, 213, 0.2); */
-  
   box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2);
   transition: 0.3s;
   text-align: justify;
   display: inline-block;
-
-  width: 70%;
+  width: 68%;
 }
 .boxed1:hover{
   box-shadow: 0 4px 8px 0 azure;
 }
 
-/* .boxed {
-  color: white;
-  font-size: 110%;
-  margin-top:30%;
-  margin-bottom: 5%;
-  background: #095f8c ;
-  padding: 5% 5%;
-  width:80%;
-  transform: translate(0%, -30%);
-  opacity: 0.9;
-  filter: alpha(opacity=60);
-} */
+
 
 ul{
   /* background: #d3d3d3; */
@@ -106,8 +84,8 @@ ul{
 
 /* get pass button */
 #gt-pass-bt{
-  padding-left: 40%;
-  padding-right: 40%;
+  padding-left: 41%;
+  padding-right: 41%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   box-shadow: 0 4px 8px 0 azure;
@@ -122,21 +100,21 @@ ul{
   box-shadow: 0 4px 8px 0 azure;
 }
 
+
+/* about card */
 #about{
   margin-top: 15%;
   width: 70%;
 }
 
+/* buttons for the events */
+.row{
+  display: inline-block !important;
+}
 
 
 
-
-
-
-
-
-
-
+/* media queries start here */
 
 @media (max-width: 767px) {
   .fields{
@@ -253,8 +231,8 @@ li span {
 
 
 
-.slide__image { background-color: #000000; }
-.slide__image img { opacity: 0.5; }
+/* .slide__image { background-color: #000000; }
+.slide__image img { opacity: 0.5; } */
 
 
 /* event buttons */
@@ -282,7 +260,7 @@ li span {
   border-radius: 0.6em;
   color: #e74c3c;
   cursor: pointer;
-  display: flex;
+  /* display: inline-flex; */
   align-self: center;
   font-size: 1rem;
   font-weight: 400;
@@ -329,6 +307,7 @@ li span {
 }
 #foot{
   padding-top: 2em;
+  
 
 
 }
@@ -336,14 +315,20 @@ ul.slider__wrapper{
   background-color: aliceblue;
 }
 
+
 .slider__controls{
   
   color: #fff;
   
 }
+
+/* the swipe buttons */
 .icon{
   background-color: #fff;
   border-radius: 0 5px 5px 0;
+}
+.icon:hover{
+  box-shadow: 5px 0 5px 0 #8c091a;
 }
 
 /* timer */
