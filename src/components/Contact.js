@@ -8,7 +8,7 @@ function Contact() {
     <div className="Contact">
       <footer className="footer bg-dark text-white">
         <div className="container" id="foot">
-          <div className="row">
+          <div className="footer-row">
             <div className="col-4 offset-1 col-sm-2">
               <h5>Links</h5>
               <ul className="list-unstyled">

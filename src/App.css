@@ -101,6 +101,7 @@ ul{
 }
 
 
+
 /* about card */
 #about{
   margin-top: 15%;
@@ -109,7 +110,17 @@ ul{
 
 /* buttons for the events */
 .row{
-  display: inline-block !important;
+  display: flex !important;
+}
+
+/* footer */
+.footer-row{
+  display: flex;
+}
+
+.col-auto{
+  
+  font-size: smaller !important;
 }
 
 
