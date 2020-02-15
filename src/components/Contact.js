@@ -25,8 +25,8 @@ function Contact() {
                 Bengaluru, Karnataka 560037<br></br>
                 <br></br>
                 For Registration Queries:<br></br>
-                <i className="fa fa-phone fa-lg"></i> : +91 96207 36801<br></br>
-                <i className="fa fa-phone fa-lg"></i> : +91 95387 87268<br></br>
+                <i className="fa fa-phone fa-lg"></i> SHRAVAN SUNDAR : +91 96207 36801<br></br>
+                <i className="fa fa-phone fa-lg"></i> KANYA NAYAK : +91 9110264655<br></br>
                 <i className="fa fa-envelope fa-lg"></i> : 
                   <a href="mailto:cultura@cmrit.ac.in">
                    cultura@cmrit.ac.in
