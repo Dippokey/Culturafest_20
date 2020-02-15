@@ -17,7 +17,7 @@ function Contact() {
                 <li><a href="#">Contact</a></li>
               </ul>
             </div> */}
-            <div className="col-7 col-sm-5">
+            <div className="col-7 col-sm-7">
               <h5>Our Address</h5>
               <address>
                 132, ITPL Main Rd, Brookefield, <br></br>
@@ -25,17 +25,15 @@ function Contact() {
                 Bengaluru, Karnataka 560037<br></br>
                 <br></br>
                 For Registration Queries:<br></br>
-                <i className="fa fa-phone fa-lg"></i> : +91 96207 36801<br></br>
-                <i className="fa fa-phone fa-lg"></i> : +91 95387 87268<br></br>
+                <i className="fa fa-phone fa-lg"></i> SHRAVAN SUNDAR : +91 96207 36801<br></br>
+                <i className="fa fa-phone fa-lg"></i> KANYA NAYAK    : +91 9110264655<br></br>
                 <i className="fa fa-envelope fa-lg"></i> : 
                   <a href="mailto:cultura@cmrit.ac.in">
-                   cultura@cmrit.ac.in
+                    cultura@cmrit.ac.in
                   </a>
               </address>
 
 
-            </div>
-            <div className="col-12 col-sm-4 align-self-center">
               <div className="text-center">
                 <a className="btn btn-social-icon btn-instagram" href="http://instagram.com/cmritcultura"><i className="fa fa-instagram"></i></a>
                 <a className="btn btn-social-icon btn-facebook" href="http://www.facebook.com/culturacmrit"><i className="fa fa-facebook"></i></a>
@@ -47,7 +45,7 @@ function Contact() {
           </div>
           <div className="row justify-content-center">
             <div className="col-auto">
-              <p>© Copyright CMR Institute of Tecnology</p>
+              <p>© Copyright CMR Institute of Technology</p>
             </div>
           </div>
         </div>

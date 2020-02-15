@@ -41,7 +41,7 @@ a {
   /* margin-top: 5% ; */
   margin-right: 5%;
   margin-left: 5%;
-  
+
   text-align: center;
   display: inline-block;
 }
@@ -50,17 +50,17 @@ a {
 .artist-pic{
   box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2);
   transition: 0.3s;
-  width: 600px;
+  width: 500px;
   height: 800px;
 }
 .artist-pic:hover{
-  box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2); 
+  box-shadow: 0 10px 10px 0 rgba(207, 207, 211, 0.2);
 }
 
 /* cultura info card */
 .boxed1{
   color: rgb(255, 255, 255);
-  font-size: large; 
+  font-size: large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   background-color: #095f8c;
   padding: 5%;
@@ -70,7 +70,7 @@ a {
   text-align: justify;
   display: inline-block;
   width: auto;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 .boxed1:hover{
   box-shadow: 0 4px 8px 0 azure;
@@ -102,7 +102,7 @@ ul{
 
 }
 #gt-pass-bt:hover{
-  
+
   box-shadow: 0 4px 8px 0 azure;
 }
 
@@ -113,7 +113,7 @@ ul{
   margin-top: 15%;
   width: 70%;
   margin-left: 100px;
-  
+
 }
 
 /* the sliding events */
@@ -136,7 +136,7 @@ article.row{
 }
 
 .col-auto{
-  
+
   font-size: smaller !important;
 }
 
@@ -268,40 +268,18 @@ li span {
 .eve_bt{
 
 
-  /* background-color: #00000000;
-  border: 3px solid rgb(0, 63, 114);
-  border-radius: 20%;
-  color:black;
-  background-color:whitesmoke;
-  margin: 1%;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px */
-
-  
-  
-  box-sizing: border-box;
-  appearance: none;
   background-color: white;
   border: 2px solid #e74c3c;
   border-radius: 0.6em;
   color: #e74c3c;
-  cursor: pointer;
-  /* display: inline-flex; */
-  align-self: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
-  margin: 20px;
-  padding: 1.2em 2.8em;
-  text-decoration: none;
+  font-size: 90%;
+  margin: 2%;
+  padding: 2%;
+  width: inherit;
   text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-
 }
 
 
@@ -316,7 +294,7 @@ li span {
   /* .eve_bt:transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out; */
   .eve_bt:hover {
     box-shadow: 0 0 40px 40px #e74c3c inset;
-  
+
 
 
 }
@@ -336,7 +314,7 @@ li span {
 }
 #foot{
   padding-top: 2em;
-  
+
 
 
 }
@@ -346,9 +324,9 @@ ul.slider__wrapper{
 
 
 .slider__controls{
-  
+
   color: #fff;
-  
+
 }
 
 /* the swipe buttons */
@@ -362,7 +340,141 @@ ul.slider__wrapper{
 
 /* timer */
 .timer{
-  padding: 2em;
-  font-size: small;
+  font-size: 60%;
+  background-color: #b3b3b3;
 }
 
+/*media query for 1024 sceens*/
+@media (max-width: 1024px){
+  .artist-card{
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .artist-pic{
+    width: inherit;
+    height: 90%;
+    padding: 5%;
+  }
+
+  #gt-pass-bt{
+    margin: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .boxed1{
+    margin-right: 3%;
+    margin-left: 10%;
+    padding: 10%;
+  }
+
+  #about{
+    margin-top: 20%;
+    width: 100%;
+    margin-left: 0px;
+    padding: 5%
+  }
+}
+
+/*media query for tablets*/
+@media (max-width: 768px){
+  .artist-card{
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .artist-pic{
+    width: inherit;
+    height: 60%;
+    padding: 5%;
+  }
+
+  #gt-pass-bt{
+    margin: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .boxed1{
+    margin-right: 3%;
+    margin-left: 10%;
+    padding: 10%;
+  }
+
+  #about{
+    margin-top: 20%;
+    width: 100%;
+    margin-left: 0px;
+    padding: 5%
+  }
+}
+
+/*media query for landscape*/
+@media (max-width: 640px){
+  .artist-card{
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .logo_size{
+    width: 40%;
+  }
+  .artist-pic{
+    width: inherit;
+    height: 50%;
+    padding: 0%;
+  }
+
+  #gt-pass-bt{
+    margin: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .boxed1{
+    margin-right: 3%;
+    margin-left: 5%;
+    padding: 10%;
+  }
+
+  #about{
+    margin-top: 40%;
+    width: 100%;
+    margin-left: 0px;
+    padding: 5%
+  }
+}
+
+/*media query for phone*/
+@media (max-width: 480px){
+  .artist-card{
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .artist-pic{
+    width: inherit;
+    height: 80%;
+    padding: 0%;
+  }
+
+  #gt-pass-bt{
+    margin: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .boxed1{
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 10%;
+  }
+
+  #about{
+    margin-top: 40%;
+    width: 100%;
+    margin-left: 0px;
+    padding: 5%
+  }
+}
